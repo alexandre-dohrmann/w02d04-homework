@@ -9,5 +9,10 @@ body {
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
+}
+
+table, th, td {
+	border: solid gray 1px;
+	margin: 0 auto;
 }
