@@ -67,3 +67,19 @@
 	$('h4.cat').appendTo($('body'));
 	$('h4').eq(0).before($('h4.cat'));
 
+// -----------
+// YEAR 6:
+// -----------
+
+	$('.secret').hide('slow').delay(2000).show('slow');
+	$('li.cat').addClass('cabbage');
+	$('li.cat').removeClass('cabbage');
+
+// -----------
+// YEAR 7:
+// -----------
+
+	$('h5').text('Fall 2017');
+	$('ul').prepend($('<li>').text('Butter beer'));
+	$('ul').attr('storage', 'chest');
+	console.log($container);
